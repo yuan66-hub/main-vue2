@@ -11,6 +11,14 @@ const routes = [
     component: HomeView,
   },
   {
+    path: "/vue3",
+    component:()=>import('../App.vue')
+  },
+  {
+    path: "/react18",
+    component:()=>import('../App.vue')
+  },
+  {
     path: "/about",
     name: "about",
     // route level code-splitting
